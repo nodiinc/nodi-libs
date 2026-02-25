@@ -7,6 +7,10 @@ name = "nodi-libs"
 dynamic = ["version"]
 description = "Internal utility libraries collection"
 requires-python = ">=3.9"
+dependencies = [
+    "croniter",
+    "python-dateutil",
+]
 
 [tool.hatch.version]
 path = "src/nodi_libs/__init__.py"

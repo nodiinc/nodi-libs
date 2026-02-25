@@ -28,6 +28,7 @@ from nodi_libs.mqtt_client import (
     TlsConfig,
     WebsocketConfig,
 )
+from nodi_libs.schedule import CronSchedule, DeltaSchedule
 
 __all__ = [
     # Backoff
@@ -64,6 +65,9 @@ __all__ = [
     "PeriodicTimer",
     # Result
     "Result",
+    # Schedule
+    "CronSchedule",
+    "DeltaSchedule",
     # SystemInfo
     "SystemInfo",
 ]
